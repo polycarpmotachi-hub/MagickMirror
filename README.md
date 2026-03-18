@@ -66,9 +66,14 @@ npm install
 
 ```
 
-
-
 ### Development
+
+Clone the example environment file and update it with your local configurations:
+
+```bash
+# In the /server directory
+cp .env.example .env
+```
 
 Start the concurrent development environment (Client on `:5173`, Server on `:3001`):
 
